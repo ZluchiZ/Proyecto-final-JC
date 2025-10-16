@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
 }
- 
+
 body {
   display: flex;
   flex-direction: column;
@@ -84,4 +84,9 @@ footer {
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
+}
+
+main {
+  padding: 20px;
+  gap: 20px;
 }
