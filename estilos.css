@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+ 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #C0BFD9; 
+}
+
+header {
+  background-color: #2A1B40;
+  color: #F26D08;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: auto;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.busqueda {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.busqueda input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background-color: #FF962B;
+  color: #2c1442;
+  font-weight: bold;
+}
+
+.busqueda input::placeholder {
+  color: #2c1442;
+}
+
+.busqueda button {
+  background-color: #FF962B;
+  color: #2c1442;
+  font-weight: bold;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.busqueda button:hover {
+  background-color: #FF962B;
+}
+
+main {
+  flex: 1;
+  background-color: #c8c4e0;
+}
+
+footer {
+  background-color: #2A1B40;
+  color: #ff8c1a;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
